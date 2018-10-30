@@ -1,0 +1,81 @@
+.container {
+    margin:auto;
+    max-width:500px;
+}
+.navbar-top{
+    display: inline;
+}
+.navbar-top ul{
+    list-style-type: none;
+}
+.errorMessage{
+    color:red;
+}
+.searchResults {
+    display:none;
+}
+.feedbackForm {
+    display:block;
+}
+.itemHeader{
+    width:80%;
+    margin:auto;
+}
+.detailPanel-Right{
+    border:solid 1px darkgrey;
+}
+.detailPanel-Left{
+    border:solid 1px darkgrey;
+    float: left;
+}
+.reviewsContainer {
+    display:none;
+    width:80%;
+    margin:auto;
+}
+.dashboardContainer {
+    width:80%;
+    margin:auto;
+}
+.adminNewProductBtn {
+    float:right;
+}
+
+/*Modal*/
+.modalControls{
+    display:inline-block;
+}
+.productCudForm {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */}
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#AddEditConfirmation{
+    display:none;
+}
+/*End Modal*/
